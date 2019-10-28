@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:id="@+id/parent_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/job_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp">
+            <TextView
+                android:id="@+id/bewerber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="Bewerberkontakt Firma"
+                android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                    android:id="@+id/bundesland"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bundesland"
+                    android:layout_marginRight="3dp"
+                    android:textSize="10sp"/>
+                    <TextView
+                    android:id="@+id/einsatzort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Einsatzort"
+                    android:layout_marginRight="3dp"
+                    android:textSize="10sp"/>
+                    <TextView
+                    android:id="@+id/activbis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Activ bis"
+                    android:textSize="10sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+</RelativeLayout>
